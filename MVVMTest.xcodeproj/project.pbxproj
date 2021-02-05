@@ -16,6 +16,11 @@
 		5884AD3825CD4BED00AD5671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5884AD3625CD4BED00AD5671 /* LaunchScreen.storyboard */; };
 		5884AD4325CD4BED00AD5671 /* MVVMTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884AD4225CD4BED00AD5671 /* MVVMTestTests.swift */; };
 		5884AD4E25CD4BED00AD5671 /* MVVMTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884AD4D25CD4BED00AD5671 /* MVVMTestUITests.swift */; };
+		5884AD5C25CD4CA900AD5671 /* WebSevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884AD5B25CD4CA900AD5671 /* WebSevice.swift */; };
+		5884AD5E25CD4CD800AD5671 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884AD5D25CD4CD800AD5671 /* Employee.swift */; };
+		5884AD6025CD4D2800AD5671 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884AD5F25CD4D2800AD5671 /* EmployeeTableViewCell.swift */; };
+		5884AD6225CD4D7B00AD5671 /* EmployeesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884AD6125CD4D7B00AD5671 /* EmployeesViewModel.swift */; };
+		5884AD6425CD4DAE00AD5671 /* EmployeeTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5884AD6325CD4DAE00AD5671 /* EmployeeTableViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		5884AD4925CD4BED00AD5671 /* MVVMTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5884AD4D25CD4BED00AD5671 /* MVVMTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTestUITests.swift; sourceTree = "<group>"; };
 		5884AD4F25CD4BED00AD5671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5884AD5B25CD4CA900AD5671 /* WebSevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSevice.swift; sourceTree = "<group>"; };
+		5884AD5D25CD4CD800AD5671 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		5884AD5F25CD4D2800AD5671 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		5884AD6125CD4D7B00AD5671 /* EmployeesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewModel.swift; sourceTree = "<group>"; };
+		5884AD6325CD4DAE00AD5671 /* EmployeeTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,11 @@
 				5884AD3625CD4BED00AD5671 /* LaunchScreen.storyboard */,
 				5884AD3925CD4BED00AD5671 /* Info.plist */,
 				5884AD3125CD4BE700AD5671 /* MVVMTest.xcdatamodeld */,
+				5884AD5B25CD4CA900AD5671 /* WebSevice.swift */,
+				5884AD5D25CD4CD800AD5671 /* Employee.swift */,
+				5884AD5F25CD4D2800AD5671 /* EmployeeTableViewCell.swift */,
+				5884AD6125CD4D7B00AD5671 /* EmployeesViewModel.swift */,
+				5884AD6325CD4DAE00AD5671 /* EmployeeTableViewDataSource.swift */,
 			);
 			path = MVVMTest;
 			sourceTree = "<group>";
@@ -262,6 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5884AD6425CD4DAE00AD5671 /* EmployeeTableViewDataSource.swift in Sources */,
+				5884AD5C25CD4CA900AD5671 /* WebSevice.swift in Sources */,
+				5884AD6025CD4D2800AD5671 /* EmployeeTableViewCell.swift in Sources */,
+				5884AD6225CD4D7B00AD5671 /* EmployeesViewModel.swift in Sources */,
+				5884AD5E25CD4CD800AD5671 /* Employee.swift in Sources */,
 				5884AD2D25CD4BE700AD5671 /* ViewController.swift in Sources */,
 				5884AD2925CD4BE700AD5671 /* AppDelegate.swift in Sources */,
 				5884AD2B25CD4BE700AD5671 /* SceneDelegate.swift in Sources */,
